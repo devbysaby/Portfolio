@@ -4,9 +4,9 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillMail,  
 } from "react-icons/ai";
+import { SiTelegram } from 'react-icons/si';
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,37 +19,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I discovered my passion for blockchain development and have been exploring it ever since. 🚀
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I'm fluent in crafting solutions using 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Solidity, Node.js, and JavaScript</b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              , with a knack for creating
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+                <b className="purple"> decentralized applications and backend systems</b>
+              </i>.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My expertise spans building 
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
+                <b className="purple"> cutting-edge blockchain technologies, smart contract development, auditing smart contracts, and creating innovative products</b>
+              </i> 
+              in the Web3 space.
+              <br />
+              <br />
+              Whenever possible, I channel my enthusiasm into developing 
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> scalable blockchain solutions, conducting research, and managing DevOps workflows</b>
+              </i>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +60,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/devbysaby"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +70,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sabir-aboobaker"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +80,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:devbysaby@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://t.me/sabiraboobaker"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiTelegram />
                 </a>
               </li>
             </ul>
