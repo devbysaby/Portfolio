@@ -2,14 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillMail,  
-} from "react-icons/ai";
-import { SiTelegram } from 'react-icons/si';
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
+import { SiTelegram } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const PurpleText = ({ children }) => (
+    <i>
+      <b className="purple">{children}</b>
+    </i>
+  );
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -19,30 +21,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I discovered my passion for blockchain development and have been exploring it ever since. 🚀
+              I’m a <PurpleText>Blockchain Developer</PurpleText> with over{" "}
+              <PurpleText>six years of experience</PurpleText> building secure,
+              scalable, and user-focused Web3 solutions.
               <br />
               <br />
-              I'm fluent in crafting solutions using 
-              <i>
-                <b className="purple"> Solidity, Node.js, and JavaScript</b>
-              </i>
-              , with a knack for creating
-              <i>
-                <b className="purple"> decentralized applications and backend systems</b>
-              </i>.
+              My journey spans <PurpleText>DeFi platforms</PurpleText>,{" "}
+              <PurpleText>cross-chain bridges</PurpleText>,{" "}
+              <PurpleText>crypto wallets</PurpleText>, and{" "}
+              <PurpleText>NFT applications</PurpleText>, developed across
+              networks like <PurpleText>Ethereum</PurpleText>,{" "}
+              <PurpleText>Tron</PurpleText>, <PurpleText>Solana</PurpleText>,
+              and <PurpleText>Bitcoin</PurpleText>.
               <br />
               <br />
-              My expertise spans building 
-              <i>
-                <b className="purple"> cutting-edge blockchain technologies, smart contract development, auditing smart contracts, and creating innovative products</b>
-              </i> 
-              in the Web3 space.
+              I enjoy turning complex ideas into practical products — from
+              designing smart contracts to building backend services that power
+              real-world blockchain applications.
               <br />
               <br />
-              Whenever possible, I channel my enthusiasm into developing 
-              <i>
-                <b className="purple"> scalable blockchain solutions, conducting research, and managing DevOps workflows</b>
-              </i>.
+              Over the years, I’ve also contributed to{" "}
+              <PurpleText>smart contract audits</PurpleText>, guided teams on
+              architecture decisions, and helped streamline project workflows
+              with basic <PurpleText>DevOps practices</PurpleText> to keep
+              things smooth and reliable.
+              <br />
+              <br />
+              Whenever possible, I bring my energy into crafting solutions that
+              are thoughtful, efficient, and built to last.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
